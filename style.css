@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    color: yellow;
+    padding: 10px ;
+    font-size: 50px;
+}
+
+h2,h3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: yellow;
+}
+h3{
+    margin-left: 5px;
+}
+
+.K{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+}
+.L{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color:cyan;
+}
+.p{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color:hotpink;
+}
+.o{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color:blueviolet;
+}
+
+.i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: brown;
+}
+.y{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: lightgreen;
+}
+
+.w{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: magenta;
+}
+.q{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+   color: deepskyblue;
+   
+}
+
+div {
+    position: relative;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    right: 3px;
+    width: 250%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.123);
+    transform: translateY(-55%) rotate(-50deg); 
+    transform-origin: right center;
+}
+footer input {
+    padding: 10px; 
+    font-size: 20px; 
+    margin: 10px; 
+    background-color: aqua; 
+    color: black;
+    border-radius: 5px;
+}
+footer p {
+    padding: 10px; 
+    font-size: 20px; 
+    margin: 10px; 
+}
+
+
+footer h1 {
+    padding: 10px; 
+    font-size: 20px; 
+    margin: 10px; 
+    text-align: center; 
+    color: white;
+}
